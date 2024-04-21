@@ -1,6 +1,20 @@
+header{
+    background-color: #78FFAE;
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    .poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
 }
 
 .cabecalho {
@@ -20,4 +34,12 @@ width:10%;
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+.escola{
+    background-color: linear-gradient(#78FFAE,#7df490);
+    display: flex;
+    padding: 24xp 0;
+}
+.escola-titulo{
+    padding: 24xp 0;
 }
